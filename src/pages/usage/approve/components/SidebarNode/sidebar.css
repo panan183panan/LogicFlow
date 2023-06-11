@@ -1,0 +1,83 @@
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  /* 或者直接写下面的样式 */
+  display: none;
+}
+
+.diagram-sidebar {
+  user-select: none;
+  position: relative;
+}
+
+.node-category-title {
+  margin: 0;
+  font-size: 14px;
+  display: block;
+  /* border-bottom: 1px solid #e5e5e5; */
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.node-category {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+.node-item1 {
+  width: 33%;
+  height: 35px;
+  /* margin-right: 3px; */
+  display: inline-block;
+}
+
+.node-item2 {
+  width: 33%;
+  height: 60px;
+  /* margin-right: 3px; */
+  display: inline-block;
+}
+
+.svg-node {
+  left: 1px;
+  top: 1px;
+  width: 32px;
+  height: 30px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-node,
+.icon-node {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 3px 3px;
+  cursor: pointer;
+}
+
+.image-setting {
+  background: url('https://dpubstatic.udache.com/static/dpubimg/UzI4AFUcfO/setting.png');
+  background-size: cover;
+}
+
+.image-user {
+  width: 40px;
+  background: url('https://dpubstatic.udache.com/static/dpubimg/-6Fd2uIoJ-/user.png');
+  background-size: cover;
+}
+
+.image-cloud {
+  width: 40px;
+  background: url('https://dpubstatic.udache.com/static/dpubimg/0oqFX1nvbD/cloud.png');
+  background-size: cover;
+}
+
+.icon-message {
+  height: 20px;
+  background: url('https://dpubstatic.udache.com/static/dpubimg/1TZgBoaq8G/message.png');
+  background-size: cover;
+}
